@@ -185,7 +185,7 @@ function interactive {
 # Fonction genpass
 #-----------------------------------------------------------------------------------------------------------------
 function genpass {
-    < /dev/urandom tr -cd "${CHARACTER_SET}" | head -c${PASSWORD_LENGTH}
+    < "${RANDOM_INPUT}" tr -cd "${CHARACTER_SET}" | head -c${PASSWORD_LENGTH}
     RETURN=$?
     echo
     return ${RETURN}
