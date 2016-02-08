@@ -48,7 +48,7 @@ Usage
 -----
 to use this script :
 
-  * if it is in yout `PATH`, run `genpasswd.sh [OPTIONS]`
+  * if it is in your `PATH`, run `genpasswd.sh [OPTIONS]`
   * else, run it like any others scripts :
     * `cd <SCRIPT_DIR>; ./genpasswd.sh [OPTIONS]`
     * `/<SCRIPT_DIR>/genpasswd.sh [OPTIONS]`
